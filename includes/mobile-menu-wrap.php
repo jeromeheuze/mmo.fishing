@@ -8,7 +8,7 @@
 
     <!-- LOGO IMG -->
     <figure class="logo-img">
-        <img src="/img/brand/logo.png" alt="Logo">
+        <img src="/img/brand/mmo-fishing-shield.png" width="117" height="108" style="width: 52px;height: auto;" alt="Logo">
     </figure>
     <!-- /LOGO IMG -->
 

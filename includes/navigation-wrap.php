@@ -5,17 +5,8 @@
         <!-- LOGO -->
         <div class="logo">
             <!-- LOGO IMG -->
-            <figure class="logo-img">
-                <img src="/img/brand/logo.png" alt="Logo">
-            </figure>
+            <img src="/img/brand/mmo-fishing-h.png" style="height: 50px;" alt="MMO Fishing Logo">
             <!-- /LOGO IMG -->
-
-            <!-- LOGO TEXT -->
-            <div class="logo-text">
-                <h2 class="logo-title">MMO<span class="highlight">Fishing</span></h2>
-                <p class="logo-info">The Latest Gaming News</p>
-            </div>
-            <!-- /LOGO TEXT -->
         </div>
         <!-- /LOGO -->
 

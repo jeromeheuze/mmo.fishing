@@ -1,10 +1,24 @@
+<?php
+include "./includes/global.php";
+require_once './bin/dbconnect.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <?php include "./includes/global_head.php" ?>
-    <title>MMO Fishing</title>
-    <meta name="description" content="MMO Fishing will be reviewing fishing skills and write guides for every game we can play.">
-    <meta name="author" content="Heuze Productions">
+    <?php
+    $title = "MMO Fishing";
+    $description = "MMO Fishing will be reviewing fishing skills and write guides for every game we can play.";
+    $url = "https://mmo.fishing/";
+    ?>
+    <title><?=$title?></title>
+    <meta name="description" content="<?=$description?>">
+    <link rel=“canonical” href=“<?=$url?>” />
+    <meta property="og:url" content="<?=$url?>">
+    <meta property="og:title" content="<?=$title?>">
+    <meta property="og:description" content="<?=$description?>">
+    <meta name="twitter:title" content="<?=$title?>">
+    <meta name="twitter:description" content="<?=$description?>">
 
     <?php include "./includes/ga.php" ?>
 </head>
